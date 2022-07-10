@@ -12,17 +12,19 @@
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/gallery.css">
     <script>
-        const rhodes = document.querySelector("#rhodos");
-        const rome = document.querySelector("#rome");
-        const budapest = document.querySelector("#budapest");
-        const paris = document.querySelector("#paris");
-        const amsterdam = document.querySelector("#amsterdam");
-        const arr = [rhodes, rome, budapest, paris, amsterdam];
+        const init = () => {
 
+        }
         const change_Country = () => {
+            const rhodes = document.querySelector("#rhodos");
+            const rome = document.querySelector("#rome");
+            const budapest = document.querySelector("#budapest");
+            const paris = document.querySelector("#paris");
+            const amsterdam = document.querySelector("#amsterdam");
+            const arr = [rhodes, rome, budapest, paris, amsterdam];
             const select = document.querySelector("#id_select");
             let select_country = document.querySelector("#id_select").value;
-            arr.map(e => e.classList.remove("active"));
+            // arr.map(e => e.classList.remove("active"));
             if (select_country == 'rhodes') {
                 arr[0].classList.add("active");
             }
@@ -43,7 +45,7 @@
     </script>
 </head>
 
-<body>
+<body onload="init()">
     <!-- header start -->
     <header class="container-fluid">
         <div class="container">

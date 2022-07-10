@@ -1,19 +1,78 @@
-
-.box{
+.box {
     display: none;
 }
-#rhodes.active{
+
+#rhodes.active {
     display: block;
 }
-#rome.active{
+
+#rome.active {
     display: block;
 }
-#budapest.active{
+
+#budapest.active {
     display: block;
 }
-#paris.active{
+
+#paris.active {
     display: block;
 }
-#amsterdam.active{
+
+#amsterdam.active {
     display: block;
+}
+
+// strip open
+.strip {
+    min-height: 40vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(https://i.ibb.co/nfJmJP5/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+
+    h2 {
+        font-size: 4em;
+        text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+        color: #333;
+    }
+}
+
+@media(max-width:992px) {
+    .strip {
+        h2 {
+            font-size: 2em;
+        }
+    }
+}
+
+// strip close
+main {
+    .box {
+        section {
+            min-height: 250px;
+            cursor: pointer;
+
+            .fa-star {
+                color: orange;
+            }
+
+            .fa-star-half-o {
+                color: orange;
+            }
+
+            #more {
+                display: none;
+            }
+
+            .img_hotel {
+                img:hover {
+                    opacity: 0.8;
+                }
+            }
+
+        }
+    }
+}
+
+a {
+    text-decoration: none;
 }

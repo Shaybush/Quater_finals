@@ -7,9 +7,17 @@
             paris = document.querySelector("#paris");
             amsterdam = document.querySelector("#amsterdam");
             arr = [rhodes, rome, budapest, paris, amsterdam];
+            arr.forEach((e) => {e.classList.add("active");})
         }
         const change_Country = () => {
             let select_country = document.querySelector("#id_select").value;
+            if(select_country == "all")
+            {
+                document.querySelector("#id_span").innerHTML = "Each Contry";
+            }
+            else{
+                document.querySelector("#id_span").innerHTML = select_country;
+            }
             // arr.map(e => e.classList.remove("active"));
             if (select_country == 'rhodes') {
                 arr.forEach((e, index) => {

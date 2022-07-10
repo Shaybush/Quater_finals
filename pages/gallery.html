@@ -60,10 +60,18 @@
         </div>
     </header>
     <!-- header end -->
+
+    <!-- strip start -->
+    <div class="strip container-fluid center">
+        <h2>Top 3 Hotels in <span id="id_span">Contries</span></h2>
+    </div>
+    <!-- strip end -->
+
+    <!-- search contries start -->
     <div class="filter_country container-fluid center mt-4 mb-4 p-5">
         <select onchange="change_Country()" class="form-select form-select-lg" aria-label="Default select example"
             id="id_select">
-            <option selected>Select Country</option>
+            <option selected value="all">Select Country</option>
             <option value="rhodes">Rhodes</option>
             <option value="rome">Rome</option>
             <option value="budapest">Budapest</option>
@@ -71,32 +79,118 @@
             <option value="amsterdam">Amsterdam</option>
         </select>
     </div>
-    <!-- 3 hotels each contry -->
+    <!-- search contries end -->
+
+
+    <!-- 3 hotels each contry start-->
     <main class="container-fluid">
-        <div class="container p-5 text-center">
+        <div class="container p-5">
             <div id="rhodes" class="box">
                 <!-- hotel one start -->
-                <section class="col-12 row">
-                    <div class="img_hotel col-4">
-                        <img src="https://i.ibb.co/4mhRqGv/Rhodes-Central-Suite.jpg" alt="Rhodes-Central-Suite" border="0">
+                <section
+                    class="row p-2 border border-secondary">
+                    <div class="hotel_details col-12 col-lg-6 text-lg-end">
+                        <h5 class="text-primary">Rhodes Central Suite</h5>
+                        <a
+                            href="https://www.google.ge/travel/hotels/entity/ChoQytHM_fDDj4DFARoNL2cvMTFzaDRrd3c0OBAC/location?g2lb=4208993%2C4223281%2C4242898%2C4251619%2C4252106%2C4253230%2C4254308%2C4258168%2C4260007%2C4262509%2C4263347%2C4264355%2C4265959%2C4250437%2C4251519%2C4260385%2C4265427%2C4269057%2C4270859&hl=en&gl=ge&un=1&rp=OAFAAEgC&ictx=1&tcfs=EhoaGAoKMjAxOS0wNi0xMRIKMjAxOS0wNi0xMlIA&utm_campaign=sharing&utm_medium=link&utm_source=htls&sa=X&ts=CAESABoqCgwSCDoGVHVya2V5GgASGhIUCgcI5g8QBxgLEgcI5g8QBxgPGAQyAhAAKgsKBygBOgNHRUwaAA&ap=MACIAQI">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i> show on map
+                        </a>
+                        <div class="stars p-2">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span>4.8</span>
+                        </div>
+                        <p>main city distance : 0.8</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
+                            interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque
+                                enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae
+                                massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
+                                ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+                                turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non
+                                fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+                        <a onclick="readMore()" id="myBtn" class="text-secondary">Read more</a>
                     </div>
-                    <div class="hotel_details col-8"></div>
+                    <div onclick="window.open('https://www.booking.com/hotel/gr/rhodes-central-suite-rodos-pole.he.html?aid=2258643&sid=6d8e7e8a53aee40b37995a88b96f7870&checkin=2022-07-10;checkout=2022-07-11;dest_id=213835;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;soh=1;sr_order=popularity;srepoch=1657452146;srpvid=1f954ff89d35038b;type=total;ucfs=1&#no_availability_msg','mywindow');" 
+                    class="img_hotel col-12 col-lg-6">
+                        <img src="https://i.ibb.co/4mhRqGv/Rhodes-Central-Suite.jpg" alt="Rhodes-Central-Suite"
+                            border="0" width="100%" height="100%">
+                    </div>
                 </section>
                 <!-- hotel one end -->
 
                 <!-- hotel two start -->
-                <section>
-                    <h2>this is hotel two</h2>
-                    <h5 class="text-secondary">best services ever</h5>
-                    <img src="https://i.ibb.co/LgCP2fS/bg.jpg" alt="" width="300px" height="200px">
+                <section
+                    class="row p-2 border border-secondary">
+                    <div class="hotel_details col-12 col-lg-6 text-lg-end">
+                        <h5 class="text-primary">Rhodes Central Suite</h5>
+                        <a
+                            href="https://www.google.ge/travel/hotels/entity/ChoQytHM_fDDj4DFARoNL2cvMTFzaDRrd3c0OBAC/location?g2lb=4208993%2C4223281%2C4242898%2C4251619%2C4252106%2C4253230%2C4254308%2C4258168%2C4260007%2C4262509%2C4263347%2C4264355%2C4265959%2C4250437%2C4251519%2C4260385%2C4265427%2C4269057%2C4270859&hl=en&gl=ge&un=1&rp=OAFAAEgC&ictx=1&tcfs=EhoaGAoKMjAxOS0wNi0xMRIKMjAxOS0wNi0xMlIA&utm_campaign=sharing&utm_medium=link&utm_source=htls&sa=X&ts=CAESABoqCgwSCDoGVHVya2V5GgASGhIUCgcI5g8QBxgLEgcI5g8QBxgPGAQyAhAAKgsKBygBOgNHRUwaAA&ap=MACIAQI">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i> show on map
+                        </a>
+                        <div class="stars p-2">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span>4.8</span>
+                        </div>
+                        <p>main city distance : 0.8</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
+                            interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque
+                                enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae
+                                massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
+                                ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+                                turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non
+                                fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+                        <a onclick="readMore()" id="myBtn" class="text-secondary">Read more</a>
+                    </div>
+                    <div onclick="window.open('https://www.booking.com/hotel/gr/rhodes-central-suite-rodos-pole.he.html?aid=2258643&sid=6d8e7e8a53aee40b37995a88b96f7870&checkin=2022-07-10;checkout=2022-07-11;dest_id=213835;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;soh=1;sr_order=popularity;srepoch=1657452146;srpvid=1f954ff89d35038b;type=total;ucfs=1&#no_availability_msg','mywindow');" 
+                    class="img_hotel col-12 col-lg-6">
+                        <img src="https://i.ibb.co/4mhRqGv/Rhodes-Central-Suite.jpg" alt="Rhodes-Central-Suite"
+                            border="0" width="100%" height="100%">
+                    </div>
                 </section>
                 <!-- hotel two end -->
 
                 <!-- hotel three start -->
-                <section>
-                    <h2>this is hotel three</h2>
-                    <h5 class="text-secondary">best services ever</h5>
-                    <img src="https://i.ibb.co/LgCP2fS/bg.jpg" alt="" width="300px" height="200px">
+                <section
+                    class="row p-2 border border-secondary">
+                    <div class="hotel_details col-12 col-lg-6 text-lg-end">
+                        <h5 class="text-primary">Rhodes Central Suite</h5>
+                        <a
+                            href="https://www.google.ge/travel/hotels/entity/ChoQytHM_fDDj4DFARoNL2cvMTFzaDRrd3c0OBAC/location?g2lb=4208993%2C4223281%2C4242898%2C4251619%2C4252106%2C4253230%2C4254308%2C4258168%2C4260007%2C4262509%2C4263347%2C4264355%2C4265959%2C4250437%2C4251519%2C4260385%2C4265427%2C4269057%2C4270859&hl=en&gl=ge&un=1&rp=OAFAAEgC&ictx=1&tcfs=EhoaGAoKMjAxOS0wNi0xMRIKMjAxOS0wNi0xMlIA&utm_campaign=sharing&utm_medium=link&utm_source=htls&sa=X&ts=CAESABoqCgwSCDoGVHVya2V5GgASGhIUCgcI5g8QBxgLEgcI5g8QBxgPGAQyAhAAKgsKBygBOgNHRUwaAA&ap=MACIAQI">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i> show on map
+                        </a>
+                        <div class="stars p-2">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span>4.8</span>
+                        </div>
+                        <p>main city distance : 0.8</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
+                            interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque
+                                enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae
+                                massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
+                                ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+                                turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non
+                                fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+                        <a onclick="readMore()" id="myBtn" class="text-secondary">Read more</a>
+                    </div>
+                    <div onclick="window.open('https://www.booking.com/hotel/gr/rhodes-central-suite-rodos-pole.he.html?aid=2258643&sid=6d8e7e8a53aee40b37995a88b96f7870&checkin=2022-07-10;checkout=2022-07-11;dest_id=213835;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;soh=1;sr_order=popularity;srepoch=1657452146;srpvid=1f954ff89d35038b;type=total;ucfs=1&#no_availability_msg','mywindow');" 
+                    class="img_hotel col-12 col-lg-6">
+                        <img src="https://i.ibb.co/4mhRqGv/Rhodes-Central-Suite.jpg" alt="Rhodes-Central-Suite"
+                            border="0" width="100%" height="100%">
+                    </div>
                 </section>
                 <!-- hotel three end -->
 
@@ -115,6 +209,7 @@
             </div>
         </div>
     </main>
+    <!-- 3 hotels each contry end-->
 
     <!-- footer start -->
     <footer class="container-fluid">
@@ -155,7 +250,7 @@
         </div>
     </footer>
     <!-- footer end -->
-    
+
     <!-- my script -->
     <script src="../script/filter_script.js"></script>
     <script src="../script/script.js"></script>

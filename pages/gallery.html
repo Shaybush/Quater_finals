@@ -15,74 +15,7 @@
         const init = () => {
 
         }
-        const change_Country = () => {
-            const rhodes = document.querySelector("#rhodos");
-            const rome = document.querySelector("#rome");
-            const budapest = document.querySelector("#budapest");
-            const paris = document.querySelector("#paris");
-            const amsterdam = document.querySelector("#amsterdam");
-            const arr = [rhodes, rome, budapest, paris, amsterdam];
-            const select = document.querySelector("#id_select");
-            let select_country = document.querySelector("#id_select").value;
-            // arr.map(e => e.classList.remove("active"));
-            if (select_country == 'rhodes') {
-                arr.forEach((e, index) =>{
-                    if(index==0){
-                        // e.classList.add("active");
-                        e.classList.add("active");
-                    }
-                    else{
-                        e.classList.remove("active");
-                    }
-                })
-            }
-            else if (select_country == 'rome') {
-                arr.forEach((e, index) =>{
-                    if(index==1){
-                        e.classList.add("active");
-                    }
-                    else{
-                        e.classList.remove("active");
-                    }
-                })
-                // arr[1].classList.add("active");
-            }
-            else if (select_country == 'budapest') {
-                arr.forEach((e, index) =>{
-                    if(index==2){
-                        e.classList.add("active");
-                    }
-                    else{
-                        e.classList.remove("active");
-                    }
-                })
-            }
-            else if (select_country == 'paris') {
-                arr.forEach((e, index) =>{
-                    if(index==3){
-                        e.classList.add("active");
-                    }
-                    else{
-                        e.classList.remove("active");
-                    }
-                })
-            }
-            else if (select_country == 'amsterdam') {
-                arr.forEach((e, index) =>{
-                    if(index==4){
-                        e.classList.add("active");
-                    }
-                    else{
-                        e.classList.remove("active");
-                    }
-                })
-            }
-            else{
-                arr.forEach((e, index) =>{
-                        e.classList.add("active");
-                })
-            }
-        }
+
     </script>
 </head>
 
@@ -146,13 +79,45 @@
     </div>
     <!-- 3 hotels each contry -->
     <main class="container-fluid">
-        <div class="container text-center p-5">
-            <div id="rhodos" class="box">rhodos</div>
-            <div id="rhodos" class="box">rhodos</div>
-            <div id="rome" class="box">rome</div>
-            <div id="budapest" class="box">budapest</div>
-            <div id="paris" class="box">paris</div>
-            <div id="amsterdam" class="box">amsterdam</div>
+        <div class="container p-5 text-center">
+            <div id="rhodes" class="box">
+                <!-- hotel one start -->
+                <section>
+                    <h2>this is hotel one</h2>
+                    <h5 class="text-secondary">best services ever</h5>
+                    <img src="https://i.ibb.co/LgCP2fS/bg.jpg" alt="" width="300px" height="200px">
+                </section>
+                <!-- hotel one end -->
+
+                <!-- hotel two start -->
+                <section>
+                    <h2>this is hotel two</h2>
+                    <h5 class="text-secondary">best services ever</h5>
+                    <img src="https://i.ibb.co/LgCP2fS/bg.jpg" alt="" width="300px" height="200px">
+                </section>
+                <!-- hotel two end -->
+
+                <!-- hotel three start -->
+                <section>
+                    <h2>this is hotel three</h2>
+                    <h5 class="text-secondary">best services ever</h5>
+                    <img src="https://i.ibb.co/LgCP2fS/bg.jpg" alt="" width="300px" height="200px">
+                </section>
+                <!-- hotel three end -->
+
+            </div>
+            <div id="rome" class="box">
+                <h2>rome</h2>
+            </div>
+            <div id="budapest" class="box">
+                <h2>budapest</h2>
+            </div>
+            <div id="paris" class="box">
+                <h2>paris</h2>
+            </div>
+            <div id="amsterdam" class="box">
+                <h2>amsterdam</h2>
+            </div>
         </div>
     </main>
 
@@ -195,8 +160,9 @@
         </div>
     </footer>
     <!-- footer end -->
-
+    
     <!-- my script -->
+    <script src="../script/filter_script.js"></script>
     <script src="../script/script.js"></script>
 </body>
 

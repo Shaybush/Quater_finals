@@ -26,21 +26,62 @@
             let select_country = document.querySelector("#id_select").value;
             // arr.map(e => e.classList.remove("active"));
             if (select_country == 'rhodes') {
-                arr[0].classList.add("active");
+                arr.forEach((e, index) =>{
+                    if(index==0){
+                        // e.classList.add("active");
+                        e.classList.add("active");
+                    }
+                    else{
+                        e.classList.remove("active");
+                    }
+                })
             }
             else if (select_country == 'rome') {
-                arr[1].classList.add("active");
+                arr.forEach((e, index) =>{
+                    if(index==1){
+                        e.classList.add("active");
+                    }
+                    else{
+                        e.classList.remove("active");
+                    }
+                })
+                // arr[1].classList.add("active");
             }
             else if (select_country == 'budapest') {
-                arr[2].classList.add("active");
+                arr.forEach((e, index) =>{
+                    if(index==2){
+                        e.classList.add("active");
+                    }
+                    else{
+                        e.classList.remove("active");
+                    }
+                })
             }
             else if (select_country == 'paris') {
-                arr[3].classList.add("active");
+                arr.forEach((e, index) =>{
+                    if(index==3){
+                        e.classList.add("active");
+                    }
+                    else{
+                        e.classList.remove("active");
+                    }
+                })
             }
             else if (select_country == 'amsterdam') {
-                arr[4].classList.add("active");
+                arr.forEach((e, index) =>{
+                    if(index==4){
+                        e.classList.add("active");
+                    }
+                    else{
+                        e.classList.remove("active");
+                    }
+                })
             }
-
+            else{
+                arr.forEach((e, index) =>{
+                        e.classList.add("active");
+                })
+            }
         }
     </script>
 </head>
@@ -106,6 +147,7 @@
     <!-- 3 hotels each contry -->
     <main class="container-fluid">
         <div class="container text-center p-5">
+            <div id="rhodos" class="box">rhodos</div>
             <div id="rhodos" class="box">rhodos</div>
             <div id="rome" class="box">rome</div>
             <div id="budapest" class="box">budapest</div>

@@ -98,10 +98,7 @@ header nav li {
   /* border-bottom: 2px solid var(--primary-100); */
   transition: 800ms;
 }
-header nav li:hover {
-  transform: translateY(2px);
-}
-header nav a {
+header nav li a {
   color: var(--black);
   /* font-weight: bold; */
   padding: 0 8px;
@@ -112,9 +109,10 @@ header nav a {
   font-family: sans-serif;
   transition: 800ms;
 }
-header nav a:hover {
+header nav li a:hover {
   color: var(--grey-200);
   text-decoration: none;
+  transform: rotateY(20deg) rotateZ(5deg);
 }
 header .fa {
   font-size: 1em;
@@ -260,10 +258,6 @@ footer .platforms_box nav a .fa-instagram:hover {
     margin-bottom: 24px;
     /* border-bottom: 2px solid var(--primary-100); */
     transition: 800ms;
-  }
-  header nav ul li:hover {
-    transform: translateY(2px);
-    border-bottom: 1px solid var(--black);
   }
   header nav ul li:hover a {
     color: var(--grey-200);

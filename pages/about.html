@@ -7,6 +7,9 @@
     <link rel="icon" href="../images/logo2.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UI HotelMe-by-ShayBushary</title>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/general.css">
@@ -60,42 +63,78 @@
         </div>
     </header>
     <!-- header end -->
+
+    <!-- main start -->
     <main class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="box col-12">
-                    <div class="left_side col-6 border">
-                        <p>we offer breakfast</p>
-                    </div>
-                    <div class="right_side col-3 border">
-                        <div class="breakfast_icon">
-                            <img src="https://i.ibb.co/zVTv02p/breakfast.png" alt="icon" width="250px" height="250px">
-                        </div>
-                    </div>
-                </div>
-                <div class="box col-12">
-                    <div class="left_side col-8">
-                        <p>top 3 hotels each contry</p>
-                    </div>
-                    <div class="right_side col-4">
-                        <div class="hotel_icon">
-                            <img src="https://i.ibb.co/V3ZzqdB/hotel1.png" alt="icon" width="100%">
-                        </div>
-                    </div>
-                </div>
-                <div class="box col-12">
-                    <div class="left_side col-8">
-                        <p>including under ground parking lot</p>
-                    </div>
-                    <div class="right_side col-4">
-                        <div class="parking_icon">
-                            <img src="https://i.ibb.co/4fDrThN/parking1.png" alt="icon" width="100%">
-                        </div>
-                    </div>
-                </div>
+        <div class="container center">
+            <div>
+                <h2>why do you <span>have</span> to choose us ?</h2>
+                <a href="#id_section" class="bubbly-button text-decoration-none">READ MORE</a>
             </div>
         </div>
     </main>
+    <!-- main end -->
+
+    <!-- section start -->
+    <section id="id_section" class="container-fluid p-4 bg-secondary">
+        <div class="container">
+            <div class="row p-3">
+                <!-- hotels -->
+                <article data-aos="fade-right" class="col-lg-6 p-2">
+                    <div class="box_des p-2 center flex-column justify-content-evenly">
+                        <div class="top text-white">
+                            <h2>Best Hotels <span class="text-primary">Ever</span></h2>
+                            <h6 class="text-dark mt-4">Our company will find for you the hotels that are considered the
+                                most relaxing</h6>
+                        </div>
+                        <div class="btn_link d-flex align-items-end">
+                            <a href="gallery.html" class="bubbly-button text-decoration-none">Our Hotels</a>
+                        </div>
+                    </div>
+                </article>
+                <article data-aos="fade-left" class="col-lg-6 p-2">
+                    <div class="box_img center">
+                        <img src="https://i.ibb.co/V3ZzqdB/hotel1.png" alt="hotel icon" width="100%" height="300px">
+                    </div>
+                </article>
+                <!-- breakfast -->
+                <article data-aos="fade-right" class="col-lg-6 p-2 order-4 order-lg-0 mt-5">
+                    <div class="box_img center">
+                        <img src="https://i.ibb.co/zVTv02p/breakfast.png" alt="hotel icon" width="60%" height="300px">
+                    </div>
+                </article>
+                <article data-aos="fade-left" class="col-lg-6 p-2 order-3 order-lg-0 mt-5">
+                    <div class="box_des p-2 center flex-column justify-content-evenly">
+                        <div class="top text-white">
+                            <h2>Culinary dining <span class="text-primary">rooms</span></h2>
+                            <h6 class="text-dark mt-4">Dining rooms of the highest standard. Do not compromise on less than that</h6>
+                        </div>
+                        <div class="btn_link d-flex align-items-end">
+                            <a href="gallery.html" class="bubbly-button text-decoration-none">Our Hotels</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- parking -->
+                <article data-aos="fade-right" class="col-lg-6 p-2 mt-5">
+                    <div class="box_des p-2 center flex-column justify-content-evenly">
+                        <div class="top text-white">
+                            <h2>Convenience of <span class="text-primary">parking</span></h2>
+                            <h6 class="text-dark mt-4">The search we conduct includes parking amenities</h6>
+                        </div>
+                        <div class="btn_link d-flex align-items-end">
+                            <a href="gallery.html" class="bubbly-button text-decoration-none">Our Hotels</a>
+                        </div>
+                    </div>
+                </article>
+                <article data-aos="fade-left" class="col-lg-6 p-2 mt-5">
+                    <div class="box_img center">
+                        <img src="https://i.ibb.co/4fDrThN/parking1.png" alt="parking icon" width="100%" height="300px">
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- section end -->
 
     <!-- footer start -->
     <footer class="container-fluid">
@@ -136,6 +175,12 @@
         </div>
     </footer>
     <!-- footer end -->
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- my script -->
     <script src="../script/script.js"></script>

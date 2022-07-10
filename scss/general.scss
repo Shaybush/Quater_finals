@@ -76,8 +76,6 @@ header {
     background: var(--white);
 }
 
-header:scrollbar {}
-
 header {
     .logo {
         a {
@@ -113,28 +111,26 @@ header {
             cursor: pointer;
             /* border-bottom: 2px solid var(--primary-100); */
             transition: 800ms;
+            a {
+                color: var(--black);
+                /* font-weight: bold; */
+                padding: 0 8px;
+                text-decoration: none;
+                /* bagggg must be inline-block */
+                display: inline-block;
+                font-size: 1em;
+                font-family: sans-serif;
+                transition: 800ms;
+            }
+            a:hover {
+                color: var(--grey-200);
+                // border-bottom: 1px solid var(--grey-200);
+                text-decoration: none;
+                transform: rotateY(20deg) rotateZ(5deg);
+            }
         }
 
-        li:hover {
-            transform: translateY(2px);
-        }
 
-        a {
-            color: var(--black);
-            /* font-weight: bold; */
-            padding: 0 8px;
-            text-decoration: none;
-            /* bagggg must be inline-block */
-            display: inline-block;
-            font-size: 1em;
-            font-family: sans-serif;
-            transition: 800ms;
-        }
-
-        a:hover {
-            color: var(--grey-200);
-            text-decoration: none;
-        }
     }
 
     .fa {
@@ -322,9 +318,8 @@ footer {
                 }
 
                 li:hover {
-                    transform: translateY(2px);
-                    border-bottom: 1px solid var(--black);
-
+                    // transform: translateY(2px);
+                    // border-bottom: 1px solid var(--black);
                     a {
                         color: var(--grey-200);
                     }

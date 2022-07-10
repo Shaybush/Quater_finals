@@ -1,12 +1,14 @@
         // filter contries own code
+        let rhodes, rome, budapest, paris, amsterdam, arr;
+        function init(){
+            rhodes = document.querySelector("#rhodes");
+            rome = document.querySelector("#rome");
+            budapest = document.querySelector("#budapest");
+            paris = document.querySelector("#paris");
+            amsterdam = document.querySelector("#amsterdam");
+            arr = [rhodes, rome, budapest, paris, amsterdam];
+        }
         const change_Country = () => {
-            const rhodes = document.querySelector("#rhodes");
-            const rome = document.querySelector("#rome");
-            const budapest = document.querySelector("#budapest");
-            const paris = document.querySelector("#paris");
-            const amsterdam = document.querySelector("#amsterdam");
-            const arr = [rhodes, rome, budapest, paris, amsterdam];
-            // const select = document.querySelector("#id_select");
             let select_country = document.querySelector("#id_select").value;
             // arr.map(e => e.classList.remove("active"));
             if (select_country == 'rhodes') {

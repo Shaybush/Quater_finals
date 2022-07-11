@@ -41,6 +41,10 @@
   text-align: center;
 }
 
+.container {
+  max-width: 1500px;
+}
+
 * {
   scroll-behavior: smooth;
 }

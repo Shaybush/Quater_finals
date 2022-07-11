@@ -1,5 +1,13 @@
+body {
+    background: #EDEEF3;
+}
+
 .box {
     display: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 #rhodes.active {
@@ -45,11 +53,15 @@
 }
 
 // strip close
+
+// main open
+
+// main close
 main {
-    .box {
-        section {
-            min-height: 250px;
-            cursor: pointer;
+    .container {
+        #rhodes {
+            background: white;
+            box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 
             .fa-star {
                 color: orange;
@@ -59,20 +71,609 @@ main {
                 color: orange;
             }
 
-            #more {
-                display: none;
-            }
+            .row {
+                article:first-of-type {
+                    cursor: pointer;
 
-            .img_hotel {
-                img:hover {
-                    opacity: 0.8;
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/4mhRqGv/Rhodes-Central-Suite.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/4mhRqGv/Rhodes-Central-Suite.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+
+                article:nth-of-type(2) {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/ZfG04gL/Me-Fo-Mi-Villa.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/ZfG04gL/Me-Fo-Mi-Villa.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+
+                article:nth-of-type(3) {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/5TgHdbg/Secret-Garden-Old-Town.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/5TgHdbg/Secret-Garden-Old-Town.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
                 }
             }
 
+            @media(max-width:768px) {
+                span {
+                    font-size: 0.8em;
+                }
+
+                p {
+                    font-size: 0.7em;
+                }
+            }
+        }
+
+        #rome {
+            background: white;
+            box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+            .fa-star {
+                color: orange;
+            }
+
+            .fa-star-half-o {
+                color: orange;
+            }
+
+            .row {
+                article:first-of-type {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/smRw1zz/Teichnersuite.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/smRw1zz/Teichnersuite.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+
+                article:nth-of-type(2) {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/GJmKL6j/Lemon-Tree-Apartment-Sistine-Chapel.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/GJmKL6j/Lemon-Tree-Apartment-Sistine-Chapel.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+
+                article:nth-of-type(3) {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/S3Lgg5d/Fori-Imperiali.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/S3Lgg5d/Fori-Imperiali.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+
+                article:nth-of-type(4) {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/BBwkP4Y/Casa-V.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/BBwkP4Y/Casa-V.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+
+                article:nth-of-type(5) {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/31xSvJ5/Piazza-Navona.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/31xSvJ5/Piazza-Navona.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+            }
+
+            @media(max-width:768px) {
+                span {
+                    font-size: 0.8em;
+                }
+
+                p {
+                    font-size: 0.7em;
+                }
+            }
+        }
+
+        #budapest {
+            background: white;
+            box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+            .fa-star {
+                color: orange;
+            }
+
+            .fa-star-half-o {
+                color: orange;
+            }
+
+            .row {
+                article:first-of-type {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/LxDpVbP/Eurostars-Budapest-Center.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/LxDpVbP/Eurostars-Budapest-Center.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+
+                article:nth-of-type(2) {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/dpTyfy6/Hotel-Orion-V-rkert.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/dpTyfy6/Hotel-Orion-V-rkert.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+
+                article:nth-of-type(3) {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/pxQ2Hzy/7-Seasons-Apartments-Budapest.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/pxQ2Hzy/7-Seasons-Apartments-Budapest.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+            }
+
+            @media(max-width:768px) {
+                span {
+                    font-size: 0.8em;
+                }
+                p {
+                    font-size: 0.7em;
+                }
+            }
+        }
+
+        #paris {
+            background: white;
+            box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+            .fa-star {
+                color: orange;
+            }
+
+            .fa-star-half-o {
+                color: orange;
+            }
+
+            .row {
+                article:first-of-type {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/fYQ0QNp/Apartment-Op-ra.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/fYQ0QNp/Apartment-Op-ra.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+
+                article:nth-of-type(2) {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/3MRVJ83/Appartement-cosy-et-spacieux-Quartier-Montparnasse.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/3MRVJ83/Appartement-cosy-et-spacieux-Quartier-Montparnasse.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+
+                article:nth-of-type(3) {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/gmGg6C6/Spacious-apartment.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/gmGg6C6/Spacious-apartment.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+            }
+
+            @media(max-width:768px) {
+                span {
+                    font-size: 0.8em;
+                }
+
+                p {
+                    font-size: 0.7em;
+                }
+            }
+        }
+
+        #amsterdam {
+            background: white;
+            box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+            .fa-star {
+                color: orange;
+            }
+
+            .fa-star-half-o {
+                color: orange;
+            }
+
+            .row {
+                article:first-of-type {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/1q0DWcX/Amsterdam-s-finest-Houseboat.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/1q0DWcX/Amsterdam-s-finest-Houseboat.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+
+                article:nth-of-type(2) {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/LPS5vxg/B-B-Mondriaan.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/LPS5vxg/B-B-Mondriaan.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+
+                article:nth-of-type(3) {
+                    cursor: pointer;
+
+                    .box_rhodes {
+                        transition: 1s;
+                        border: rgb(210, 210, 210) solid 0.3px;
+
+                        .hotel_image {
+                            background: url('https://i.ibb.co/K6r0PMr/Bed-Bike-Studio-Amsterdam.jpg');
+                            background-size: cover;
+                            background-position: center;
+
+                            .sale_ad {
+                                min-height: 250px;
+                            }
+                        }
+                    }
+
+                    .box_rhodes:hover {
+                        transform: scale(1.05);
+
+                        .hotel_image {
+                            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/K6r0PMr/Bed-Bike-Studio-Amsterdam.jpg');
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+            }
+
+            @media(max-width:768px) {
+                span {
+                    font-size: 0.8em;
+                }
+
+                p {
+                    font-size: 0.7em;
+                }
+            }
         }
     }
-}
-
-a {
-    text-decoration: none;
 }

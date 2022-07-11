@@ -1,6 +1,6 @@
         // filter contries own code
         let rhodes, rome, budapest, paris, amsterdam, arr;
-        function init(){
+        window.onload = () => {
             rhodes = document.querySelector("#rhodes");
             rome = document.querySelector("#rome");
             budapest = document.querySelector("#budapest");
@@ -10,7 +10,10 @@
             arr.forEach((e) => {e.classList.add("active");})
         }
         const change_Country = () => {
+            // מחזיר ערך נבחר של select
+            // return rhodes,rome,budapest,paris,amsterdam - מחזיר את אובייקטים האלה כ- string
             let select_country = document.querySelector("#id_select").value;
+            // לא להתייחס
             if(select_country == "all")
             {
                 document.querySelector("#id_span").innerHTML = "Each Contry";
@@ -18,7 +21,11 @@
             else{
                 document.querySelector("#id_span").innerHTML = select_country;
             }
-            // arr.map(e => e.classList.remove("active"));
+            // עד לפה
+
+            // אני רוצה במקום לבדוק אחד אחד 
+            // להשתמש בערך של select 
+            // ושהוא יזהה את זה כאובייקט שלי למעלה
             if (select_country == 'rhodes') {
                 arr.forEach((e, index) => {
                     if (index == 0) {

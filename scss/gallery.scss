@@ -62,7 +62,6 @@ main {
         #rhodes {
             background: white;
             box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-
             .fa-star {
                 color: orange;
             }
@@ -77,6 +76,7 @@ main {
 
                     .box_rhodes {
                         transition: 1s;
+                        height: 100%;
                         border: rgb(210, 210, 210) solid 0.3px;
 
                         .hotel_image {
@@ -106,6 +106,7 @@ main {
 
                     .box_rhodes {
                         transition: 1s;
+                        height: 100%;
                         border: rgb(210, 210, 210) solid 0.3px;
 
                         .hotel_image {
@@ -187,8 +188,9 @@ main {
                 article:first-of-type {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_rome {
                         transition: 1s;
+                        height: 100%;
                         border: rgb(210, 210, 210) solid 0.3px;
 
                         .hotel_image {
@@ -202,7 +204,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_rome:hover {
                         transform: scale(1.05);
 
                         .hotel_image {
@@ -216,7 +218,7 @@ main {
                 article:nth-of-type(2) {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_rome {
                         transition: 1s;
                         border: rgb(210, 210, 210) solid 0.3px;
 
@@ -231,7 +233,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_rome:hover {
                         transform: scale(1.05);
 
                         .hotel_image {
@@ -245,8 +247,9 @@ main {
                 article:nth-of-type(3) {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_rome {
                         transition: 1s;
+                        height: 100%;
                         border: rgb(210, 210, 210) solid 0.3px;
 
                         .hotel_image {
@@ -260,7 +263,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_rome:hover {
                         transform: scale(1.05);
 
                         .hotel_image {
@@ -274,7 +277,7 @@ main {
                 article:nth-of-type(4) {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_rome {
                         transition: 1s;
                         border: rgb(210, 210, 210) solid 0.3px;
 
@@ -289,7 +292,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_rome:hover {
                         transform: scale(1.05);
 
                         .hotel_image {
@@ -303,7 +306,7 @@ main {
                 article:nth-of-type(5) {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_rome {
                         transition: 1s;
                         border: rgb(210, 210, 210) solid 0.3px;
 
@@ -318,7 +321,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_rome:hover {
                         transform: scale(1.05);
 
                         .hotel_image {
@@ -357,7 +360,8 @@ main {
                 article:first-of-type {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_budapest {
+                        height: 100%;
                         transition: 1s;
                         border: rgb(210, 210, 210) solid 0.3px;
 
@@ -372,7 +376,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_budapest:hover {
                         transform: scale(1.05);
 
                         .hotel_image {
@@ -386,7 +390,8 @@ main {
                 article:nth-of-type(2) {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_budapest {
+                        height: 100%;
                         transition: 1s;
                         border: rgb(210, 210, 210) solid 0.3px;
 
@@ -401,7 +406,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_budapest:hover {
                         transform: scale(1.05);
 
                         .hotel_image {
@@ -415,7 +420,7 @@ main {
                 article:nth-of-type(3) {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_budapest {
                         transition: 1s;
                         border: rgb(210, 210, 210) solid 0.3px;
 
@@ -430,7 +435,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_budapest:hover {
                         transform: scale(1.05);
 
                         .hotel_image {
@@ -468,7 +473,7 @@ main {
                 article:first-of-type {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_paris {
                         transition: 1s;
                         border: rgb(210, 210, 210) solid 0.3px;
 
@@ -483,7 +488,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_paris:hover {
                         transform: scale(1.05);
 
                         .hotel_image {
@@ -497,8 +502,9 @@ main {
                 article:nth-of-type(2) {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_paris {
                         transition: 1s;
+                        height: 100%;
                         border: rgb(210, 210, 210) solid 0.3px;
 
                         .hotel_image {
@@ -512,7 +518,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_paris:hover {
                         transform: scale(1.05);
 
                         .hotel_image {
@@ -526,8 +532,9 @@ main {
                 article:nth-of-type(3) {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_paris {
                         transition: 1s;
+                        height: 100%;
                         border: rgb(210, 210, 210) solid 0.3px;
 
                         .hotel_image {
@@ -541,7 +548,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_paris:hover {
                         transform: scale(1.05);
 
                         .hotel_image {
@@ -580,7 +587,7 @@ main {
                 article:first-of-type {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_amsterdam {
                         transition: 1s;
                         border: rgb(210, 210, 210) solid 0.3px;
 
@@ -595,7 +602,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_amsterdam:hover {
                         transform: scale(1.05);
 
                         .hotel_image {
@@ -609,8 +616,9 @@ main {
                 article:nth-of-type(2) {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_amsterdam {
                         transition: 1s;
+                        height: 100%;
                         border: rgb(210, 210, 210) solid 0.3px;
 
                         .hotel_image {
@@ -624,7 +632,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_amsterdam:hover {
                         transform: scale(1.05);
 
                         .hotel_image {
@@ -638,8 +646,9 @@ main {
                 article:nth-of-type(3) {
                     cursor: pointer;
 
-                    .box_rhodes {
+                    .box_amsterdam {
                         transition: 1s;
+                        height: 100%;
                         border: rgb(210, 210, 210) solid 0.3px;
 
                         .hotel_image {
@@ -653,7 +662,7 @@ main {
                         }
                     }
 
-                    .box_rhodes:hover {
+                    .box_amsterdam:hover {
                         transform: scale(1.05);
 
                         .hotel_image {

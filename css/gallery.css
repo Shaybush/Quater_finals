@@ -62,6 +62,7 @@ main .container #rhodes .row article:first-of-type {
 }
 main .container #rhodes .row article:first-of-type .box_rhodes {
   transition: 1s;
+  height: 100%;
   border: rgb(210, 210, 210) solid 0.3px;
 }
 main .container #rhodes .row article:first-of-type .box_rhodes .hotel_image {
@@ -85,6 +86,7 @@ main .container #rhodes .row article:nth-of-type(2) {
 }
 main .container #rhodes .row article:nth-of-type(2) .box_rhodes {
   transition: 1s;
+  height: 100%;
   border: rgb(210, 210, 210) solid 0.3px;
 }
 main .container #rhodes .row article:nth-of-type(2) .box_rhodes .hotel_image {
@@ -147,22 +149,23 @@ main .container #rome .fa-star-half-o {
 main .container #rome .row article:first-of-type {
   cursor: pointer;
 }
-main .container #rome .row article:first-of-type .box_rhodes {
+main .container #rome .row article:first-of-type .box_rome {
   transition: 1s;
+  height: 100%;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #rome .row article:first-of-type .box_rhodes .hotel_image {
+main .container #rome .row article:first-of-type .box_rome .hotel_image {
   background: url("https://i.ibb.co/smRw1zz/Teichnersuite.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #rome .row article:first-of-type .box_rhodes .hotel_image .sale_ad {
+main .container #rome .row article:first-of-type .box_rome .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #rome .row article:first-of-type .box_rhodes:hover {
+main .container #rome .row article:first-of-type .box_rome:hover {
   transform: scale(1.05);
 }
-main .container #rome .row article:first-of-type .box_rhodes:hover .hotel_image {
+main .container #rome .row article:first-of-type .box_rome:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/smRw1zz/Teichnersuite.jpg");
   background-size: cover;
   background-position: center;
@@ -170,22 +173,22 @@ main .container #rome .row article:first-of-type .box_rhodes:hover .hotel_image 
 main .container #rome .row article:nth-of-type(2) {
   cursor: pointer;
 }
-main .container #rome .row article:nth-of-type(2) .box_rhodes {
+main .container #rome .row article:nth-of-type(2) .box_rome {
   transition: 1s;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #rome .row article:nth-of-type(2) .box_rhodes .hotel_image {
+main .container #rome .row article:nth-of-type(2) .box_rome .hotel_image {
   background: url("https://i.ibb.co/GJmKL6j/Lemon-Tree-Apartment-Sistine-Chapel.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #rome .row article:nth-of-type(2) .box_rhodes .hotel_image .sale_ad {
+main .container #rome .row article:nth-of-type(2) .box_rome .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #rome .row article:nth-of-type(2) .box_rhodes:hover {
+main .container #rome .row article:nth-of-type(2) .box_rome:hover {
   transform: scale(1.05);
 }
-main .container #rome .row article:nth-of-type(2) .box_rhodes:hover .hotel_image {
+main .container #rome .row article:nth-of-type(2) .box_rome:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/GJmKL6j/Lemon-Tree-Apartment-Sistine-Chapel.jpg");
   background-size: cover;
   background-position: center;
@@ -193,22 +196,23 @@ main .container #rome .row article:nth-of-type(2) .box_rhodes:hover .hotel_image
 main .container #rome .row article:nth-of-type(3) {
   cursor: pointer;
 }
-main .container #rome .row article:nth-of-type(3) .box_rhodes {
+main .container #rome .row article:nth-of-type(3) .box_rome {
   transition: 1s;
+  height: 100%;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #rome .row article:nth-of-type(3) .box_rhodes .hotel_image {
+main .container #rome .row article:nth-of-type(3) .box_rome .hotel_image {
   background: url("https://i.ibb.co/S3Lgg5d/Fori-Imperiali.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #rome .row article:nth-of-type(3) .box_rhodes .hotel_image .sale_ad {
+main .container #rome .row article:nth-of-type(3) .box_rome .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #rome .row article:nth-of-type(3) .box_rhodes:hover {
+main .container #rome .row article:nth-of-type(3) .box_rome:hover {
   transform: scale(1.05);
 }
-main .container #rome .row article:nth-of-type(3) .box_rhodes:hover .hotel_image {
+main .container #rome .row article:nth-of-type(3) .box_rome:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/S3Lgg5d/Fori-Imperiali.jpg");
   background-size: cover;
   background-position: center;
@@ -216,22 +220,22 @@ main .container #rome .row article:nth-of-type(3) .box_rhodes:hover .hotel_image
 main .container #rome .row article:nth-of-type(4) {
   cursor: pointer;
 }
-main .container #rome .row article:nth-of-type(4) .box_rhodes {
+main .container #rome .row article:nth-of-type(4) .box_rome {
   transition: 1s;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #rome .row article:nth-of-type(4) .box_rhodes .hotel_image {
+main .container #rome .row article:nth-of-type(4) .box_rome .hotel_image {
   background: url("https://i.ibb.co/BBwkP4Y/Casa-V.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #rome .row article:nth-of-type(4) .box_rhodes .hotel_image .sale_ad {
+main .container #rome .row article:nth-of-type(4) .box_rome .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #rome .row article:nth-of-type(4) .box_rhodes:hover {
+main .container #rome .row article:nth-of-type(4) .box_rome:hover {
   transform: scale(1.05);
 }
-main .container #rome .row article:nth-of-type(4) .box_rhodes:hover .hotel_image {
+main .container #rome .row article:nth-of-type(4) .box_rome:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/BBwkP4Y/Casa-V.jpg");
   background-size: cover;
   background-position: center;
@@ -239,22 +243,22 @@ main .container #rome .row article:nth-of-type(4) .box_rhodes:hover .hotel_image
 main .container #rome .row article:nth-of-type(5) {
   cursor: pointer;
 }
-main .container #rome .row article:nth-of-type(5) .box_rhodes {
+main .container #rome .row article:nth-of-type(5) .box_rome {
   transition: 1s;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #rome .row article:nth-of-type(5) .box_rhodes .hotel_image {
+main .container #rome .row article:nth-of-type(5) .box_rome .hotel_image {
   background: url("https://i.ibb.co/31xSvJ5/Piazza-Navona.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #rome .row article:nth-of-type(5) .box_rhodes .hotel_image .sale_ad {
+main .container #rome .row article:nth-of-type(5) .box_rome .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #rome .row article:nth-of-type(5) .box_rhodes:hover {
+main .container #rome .row article:nth-of-type(5) .box_rome:hover {
   transform: scale(1.05);
 }
-main .container #rome .row article:nth-of-type(5) .box_rhodes:hover .hotel_image {
+main .container #rome .row article:nth-of-type(5) .box_rome:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/31xSvJ5/Piazza-Navona.jpg");
   background-size: cover;
   background-position: center;
@@ -280,22 +284,23 @@ main .container #budapest .fa-star-half-o {
 main .container #budapest .row article:first-of-type {
   cursor: pointer;
 }
-main .container #budapest .row article:first-of-type .box_rhodes {
+main .container #budapest .row article:first-of-type .box_budapest {
+  height: 100%;
   transition: 1s;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #budapest .row article:first-of-type .box_rhodes .hotel_image {
+main .container #budapest .row article:first-of-type .box_budapest .hotel_image {
   background: url("https://i.ibb.co/LxDpVbP/Eurostars-Budapest-Center.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #budapest .row article:first-of-type .box_rhodes .hotel_image .sale_ad {
+main .container #budapest .row article:first-of-type .box_budapest .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #budapest .row article:first-of-type .box_rhodes:hover {
+main .container #budapest .row article:first-of-type .box_budapest:hover {
   transform: scale(1.05);
 }
-main .container #budapest .row article:first-of-type .box_rhodes:hover .hotel_image {
+main .container #budapest .row article:first-of-type .box_budapest:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/LxDpVbP/Eurostars-Budapest-Center.jpg");
   background-size: cover;
   background-position: center;
@@ -303,22 +308,23 @@ main .container #budapest .row article:first-of-type .box_rhodes:hover .hotel_im
 main .container #budapest .row article:nth-of-type(2) {
   cursor: pointer;
 }
-main .container #budapest .row article:nth-of-type(2) .box_rhodes {
+main .container #budapest .row article:nth-of-type(2) .box_budapest {
+  height: 100%;
   transition: 1s;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #budapest .row article:nth-of-type(2) .box_rhodes .hotel_image {
+main .container #budapest .row article:nth-of-type(2) .box_budapest .hotel_image {
   background: url("https://i.ibb.co/dpTyfy6/Hotel-Orion-V-rkert.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #budapest .row article:nth-of-type(2) .box_rhodes .hotel_image .sale_ad {
+main .container #budapest .row article:nth-of-type(2) .box_budapest .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #budapest .row article:nth-of-type(2) .box_rhodes:hover {
+main .container #budapest .row article:nth-of-type(2) .box_budapest:hover {
   transform: scale(1.05);
 }
-main .container #budapest .row article:nth-of-type(2) .box_rhodes:hover .hotel_image {
+main .container #budapest .row article:nth-of-type(2) .box_budapest:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/dpTyfy6/Hotel-Orion-V-rkert.jpg");
   background-size: cover;
   background-position: center;
@@ -326,22 +332,22 @@ main .container #budapest .row article:nth-of-type(2) .box_rhodes:hover .hotel_i
 main .container #budapest .row article:nth-of-type(3) {
   cursor: pointer;
 }
-main .container #budapest .row article:nth-of-type(3) .box_rhodes {
+main .container #budapest .row article:nth-of-type(3) .box_budapest {
   transition: 1s;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #budapest .row article:nth-of-type(3) .box_rhodes .hotel_image {
+main .container #budapest .row article:nth-of-type(3) .box_budapest .hotel_image {
   background: url("https://i.ibb.co/pxQ2Hzy/7-Seasons-Apartments-Budapest.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #budapest .row article:nth-of-type(3) .box_rhodes .hotel_image .sale_ad {
+main .container #budapest .row article:nth-of-type(3) .box_budapest .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #budapest .row article:nth-of-type(3) .box_rhodes:hover {
+main .container #budapest .row article:nth-of-type(3) .box_budapest:hover {
   transform: scale(1.05);
 }
-main .container #budapest .row article:nth-of-type(3) .box_rhodes:hover .hotel_image {
+main .container #budapest .row article:nth-of-type(3) .box_budapest:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/pxQ2Hzy/7-Seasons-Apartments-Budapest.jpg");
   background-size: cover;
   background-position: center;
@@ -367,22 +373,22 @@ main .container #paris .fa-star-half-o {
 main .container #paris .row article:first-of-type {
   cursor: pointer;
 }
-main .container #paris .row article:first-of-type .box_rhodes {
+main .container #paris .row article:first-of-type .box_paris {
   transition: 1s;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #paris .row article:first-of-type .box_rhodes .hotel_image {
+main .container #paris .row article:first-of-type .box_paris .hotel_image {
   background: url("https://i.ibb.co/fYQ0QNp/Apartment-Op-ra.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #paris .row article:first-of-type .box_rhodes .hotel_image .sale_ad {
+main .container #paris .row article:first-of-type .box_paris .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #paris .row article:first-of-type .box_rhodes:hover {
+main .container #paris .row article:first-of-type .box_paris:hover {
   transform: scale(1.05);
 }
-main .container #paris .row article:first-of-type .box_rhodes:hover .hotel_image {
+main .container #paris .row article:first-of-type .box_paris:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/fYQ0QNp/Apartment-Op-ra.jpg");
   background-size: cover;
   background-position: center;
@@ -390,22 +396,23 @@ main .container #paris .row article:first-of-type .box_rhodes:hover .hotel_image
 main .container #paris .row article:nth-of-type(2) {
   cursor: pointer;
 }
-main .container #paris .row article:nth-of-type(2) .box_rhodes {
+main .container #paris .row article:nth-of-type(2) .box_paris {
   transition: 1s;
+  height: 100%;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #paris .row article:nth-of-type(2) .box_rhodes .hotel_image {
+main .container #paris .row article:nth-of-type(2) .box_paris .hotel_image {
   background: url("https://i.ibb.co/3MRVJ83/Appartement-cosy-et-spacieux-Quartier-Montparnasse.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #paris .row article:nth-of-type(2) .box_rhodes .hotel_image .sale_ad {
+main .container #paris .row article:nth-of-type(2) .box_paris .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #paris .row article:nth-of-type(2) .box_rhodes:hover {
+main .container #paris .row article:nth-of-type(2) .box_paris:hover {
   transform: scale(1.05);
 }
-main .container #paris .row article:nth-of-type(2) .box_rhodes:hover .hotel_image {
+main .container #paris .row article:nth-of-type(2) .box_paris:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/3MRVJ83/Appartement-cosy-et-spacieux-Quartier-Montparnasse.jpg");
   background-size: cover;
   background-position: center;
@@ -413,22 +420,23 @@ main .container #paris .row article:nth-of-type(2) .box_rhodes:hover .hotel_imag
 main .container #paris .row article:nth-of-type(3) {
   cursor: pointer;
 }
-main .container #paris .row article:nth-of-type(3) .box_rhodes {
+main .container #paris .row article:nth-of-type(3) .box_paris {
   transition: 1s;
+  height: 100%;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #paris .row article:nth-of-type(3) .box_rhodes .hotel_image {
+main .container #paris .row article:nth-of-type(3) .box_paris .hotel_image {
   background: url("https://i.ibb.co/gmGg6C6/Spacious-apartment.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #paris .row article:nth-of-type(3) .box_rhodes .hotel_image .sale_ad {
+main .container #paris .row article:nth-of-type(3) .box_paris .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #paris .row article:nth-of-type(3) .box_rhodes:hover {
+main .container #paris .row article:nth-of-type(3) .box_paris:hover {
   transform: scale(1.05);
 }
-main .container #paris .row article:nth-of-type(3) .box_rhodes:hover .hotel_image {
+main .container #paris .row article:nth-of-type(3) .box_paris:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/gmGg6C6/Spacious-apartment.jpg");
   background-size: cover;
   background-position: center;
@@ -454,22 +462,22 @@ main .container #amsterdam .fa-star-half-o {
 main .container #amsterdam .row article:first-of-type {
   cursor: pointer;
 }
-main .container #amsterdam .row article:first-of-type .box_rhodes {
+main .container #amsterdam .row article:first-of-type .box_amsterdam {
   transition: 1s;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #amsterdam .row article:first-of-type .box_rhodes .hotel_image {
+main .container #amsterdam .row article:first-of-type .box_amsterdam .hotel_image {
   background: url("https://i.ibb.co/1q0DWcX/Amsterdam-s-finest-Houseboat.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #amsterdam .row article:first-of-type .box_rhodes .hotel_image .sale_ad {
+main .container #amsterdam .row article:first-of-type .box_amsterdam .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #amsterdam .row article:first-of-type .box_rhodes:hover {
+main .container #amsterdam .row article:first-of-type .box_amsterdam:hover {
   transform: scale(1.05);
 }
-main .container #amsterdam .row article:first-of-type .box_rhodes:hover .hotel_image {
+main .container #amsterdam .row article:first-of-type .box_amsterdam:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/1q0DWcX/Amsterdam-s-finest-Houseboat.jpg");
   background-size: cover;
   background-position: center;
@@ -477,22 +485,23 @@ main .container #amsterdam .row article:first-of-type .box_rhodes:hover .hotel_i
 main .container #amsterdam .row article:nth-of-type(2) {
   cursor: pointer;
 }
-main .container #amsterdam .row article:nth-of-type(2) .box_rhodes {
+main .container #amsterdam .row article:nth-of-type(2) .box_amsterdam {
   transition: 1s;
+  height: 100%;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #amsterdam .row article:nth-of-type(2) .box_rhodes .hotel_image {
+main .container #amsterdam .row article:nth-of-type(2) .box_amsterdam .hotel_image {
   background: url("https://i.ibb.co/LPS5vxg/B-B-Mondriaan.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #amsterdam .row article:nth-of-type(2) .box_rhodes .hotel_image .sale_ad {
+main .container #amsterdam .row article:nth-of-type(2) .box_amsterdam .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #amsterdam .row article:nth-of-type(2) .box_rhodes:hover {
+main .container #amsterdam .row article:nth-of-type(2) .box_amsterdam:hover {
   transform: scale(1.05);
 }
-main .container #amsterdam .row article:nth-of-type(2) .box_rhodes:hover .hotel_image {
+main .container #amsterdam .row article:nth-of-type(2) .box_amsterdam:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/LPS5vxg/B-B-Mondriaan.jpg");
   background-size: cover;
   background-position: center;
@@ -500,22 +509,23 @@ main .container #amsterdam .row article:nth-of-type(2) .box_rhodes:hover .hotel_
 main .container #amsterdam .row article:nth-of-type(3) {
   cursor: pointer;
 }
-main .container #amsterdam .row article:nth-of-type(3) .box_rhodes {
+main .container #amsterdam .row article:nth-of-type(3) .box_amsterdam {
   transition: 1s;
+  height: 100%;
   border: rgb(210, 210, 210) solid 0.3px;
 }
-main .container #amsterdam .row article:nth-of-type(3) .box_rhodes .hotel_image {
+main .container #amsterdam .row article:nth-of-type(3) .box_amsterdam .hotel_image {
   background: url("https://i.ibb.co/K6r0PMr/Bed-Bike-Studio-Amsterdam.jpg");
   background-size: cover;
   background-position: center;
 }
-main .container #amsterdam .row article:nth-of-type(3) .box_rhodes .hotel_image .sale_ad {
+main .container #amsterdam .row article:nth-of-type(3) .box_amsterdam .hotel_image .sale_ad {
   min-height: 250px;
 }
-main .container #amsterdam .row article:nth-of-type(3) .box_rhodes:hover {
+main .container #amsterdam .row article:nth-of-type(3) .box_amsterdam:hover {
   transform: scale(1.05);
 }
-main .container #amsterdam .row article:nth-of-type(3) .box_rhodes:hover .hotel_image {
+main .container #amsterdam .row article:nth-of-type(3) .box_amsterdam:hover .hotel_image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://i.ibb.co/K6r0PMr/Bed-Bike-Studio-Amsterdam.jpg");
   background-size: cover;
   background-position: center;

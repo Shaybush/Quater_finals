@@ -182,7 +182,7 @@ header .fa-arrow-left {
 
 /* button end */
 footer {
-  background: var(--grey-300);
+  background: var(--white);
 }
 footer .aboutMe_box span {
   font-size: 1em;

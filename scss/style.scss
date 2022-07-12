@@ -157,15 +157,20 @@ aside {
 
 //cities open
 section {
-    .container{
+    background: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+
+    .container {
         article {
-            .box{
+            .box {
                 cursor: pointer;
                 background: white;
                 box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
                 transition: 1s;
             }
-            .box:hover{
+
+            .box:hover {
                 transform: scale(1.03);
             }
         }

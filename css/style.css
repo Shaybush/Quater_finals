@@ -127,6 +127,11 @@ aside nav a img {
     width: 60px;
   }
 }
+section {
+  background: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
 section .container article .box {
   cursor: pointer;
   background: white;

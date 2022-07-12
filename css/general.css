@@ -50,7 +50,7 @@
 }
 
 body {
-  background-color: var(--white);
+  background-color: var(--grey-50);
   color: var(--black);
 }
 
@@ -182,7 +182,7 @@ header .fa-arrow-left {
 
 /* button end */
 footer {
-  background: var(--white);
+  background: var(--grey-100);
 }
 footer .aboutMe_box span {
   font-size: 1em;

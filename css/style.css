@@ -140,4 +140,10 @@ section .container article .box {
 }
 section .container article .box:hover {
   transform: scale(1.03);
+}
+
+@media (max-width: 992px) {
+  section {
+    background: var(--white);
+  }
 }/*# sourceMappingURL=style.css.map */

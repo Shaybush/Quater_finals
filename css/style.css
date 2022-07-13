@@ -69,12 +69,13 @@
 }
 .strip_carousel .bg_pic {
   min-height: 400px;
-  background-position: center bottom;
+  background-position: center;
   background-size: cover;
 }
-.strip_carousel .bg_pic_budapest {
+.strip_carousel .bg_pic_amsterdam {
   min-height: 400px;
-  background-position: center center;
+  background-position: center bottom;
+  background-position-y: 700px;
   background-size: cover;
 }
 .strip_carousel .carousel-item .carousel-caption {
@@ -100,6 +101,7 @@
 }
 
 aside {
+  background: var(--white);
   padding: 20px;
   text-align: center;
 }
@@ -128,9 +130,7 @@ aside nav a img {
   }
 }
 section {
-  background: url(../images/background.jpg);
-  background-size: cover;
-  background-position: center;
+  background: #F0F4F8;
 }
 section .container article .box {
   cursor: pointer;
@@ -140,10 +140,4 @@ section .container article .box {
 }
 section .container article .box:hover {
   transform: scale(1.03);
-}
-
-@media (max-width: 992px) {
-  section {
-    background: var(--white);
-  }
 }/*# sourceMappingURL=style.css.map */

@@ -53,8 +53,6 @@ a {
 // strip close
 
 // main open
-
-// main close
 main {
     .container {
         #rhodes {
@@ -682,6 +680,16 @@ main {
                     font-size: 0.7em;
                 }
             }
+        }
+    }
+}
+// main close
+@media(max-width:768px)
+{
+    details{
+        iframe{
+            width: 100%;
+            height: 200px;
         }
     }
 }

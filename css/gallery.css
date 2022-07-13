@@ -534,4 +534,11 @@ main .container #amsterdam .row article:nth-of-type(3) .box_amsterdam:hover .hot
   main .container #amsterdam p {
     font-size: 0.7em;
   }
+}
+
+@media (max-width: 768px) {
+  details iframe {
+    width: 100%;
+    height: 200px;
+  }
 }/*# sourceMappingURL=gallery.css.map */

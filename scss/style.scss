@@ -75,19 +75,19 @@
 .strip_carousel {
     .bg_pic {
         min-height: 400px;
+        background-position: center;
+        background-size: cover;
+    }
+    .bg_pic_amsterdam{
+        min-height: 400px;
         background-position: center bottom;
+        background-position-y: 700px;
         background-size: cover;
     }
 
-    .bg_pic_budapest {
-        min-height: 400px;
-        background-position: center center;
-        background-size: cover;
-    }
 
     /* עושה שלטקסט יהיה רקע מושחר שקוף */
     .carousel-item .carousel-caption {
-
         background: rgba(51, 51, 51, 0.308);
         max-width: 500px;
         margin: 0 auto;
@@ -118,6 +118,7 @@
 
 // ad websites open
 aside {
+    background: var(--white);
     padding: 20px;
     text-align: center;
 
@@ -157,9 +158,7 @@ aside {
 
 //cities open
 section {
-    background: url(../images/background.jpg);
-    background-size: cover;
-    background-position: center;
+    background: #F0F4F8;
     .container {
         article {
             .box {
@@ -177,7 +176,7 @@ section {
 }
 @media(max-width:992px){
     section{
-        background: var(--white);
+        // background: var(--white);
     }
 }
 

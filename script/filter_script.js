@@ -13,23 +13,29 @@
         const change_Country = () => {
             // return rhodes,rome,budapest,paris,amsterdam - מחזיר את אובייקטים האלה כ- string
             let select_country = document.querySelector("#id_select").value;
-            let select_country_object = eval(select_country);
-                
-            arr.forEach((e) =>{
-                if(e === select_country_object){
-                    document.querySelector("#id_span").innerHTML = ` in ${select_country}`;
-                    e.classList.add("active");
-                }
-                else if(select_country == "all"){
+            console.log(select_country);
+            // all the contries appear
+            if(select_country == "all"){               
+                    document.querySelector("#id_span").innerHTML = "";
                     arr.forEach((e) => {
                         e.classList.add("active");
-                    })
-                    document.querySelector("#id_span").innerHTML = "";
-                }
-                else{
-                    e.classList.remove("active");
-                }
-            });
+                    })       
+            }
+            // all the rest
+            else{
+                let select_country_object = eval(select_country);
+                arr.forEach((e) =>{
+                    if(e === select_country_object){
+                        document.querySelector("#id_span").innerHTML = ` in ${select_country}`;
+                        e.classList.add("active");
+                    }
+                    else{
+                        e.classList.remove("active");
+                    }
+                });
+            }
+            
+
 
             // cities.forEach((e, index) =>{
             //     if(e == select_country){

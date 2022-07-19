@@ -81,7 +81,7 @@
     .bg_pic_amsterdam{
         min-height: 400px;
         background-position: center bottom;
-        background-position-y: 700px;
+        background-position-y: 400px;
         background-size: cover;
     }
 
@@ -172,11 +172,6 @@ section {
                 transform: scale(1.03);
             }
         }
-    }
-}
-@media(max-width:992px){
-    section{
-        // background: var(--white);
     }
 }
 

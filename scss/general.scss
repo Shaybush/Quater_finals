@@ -42,7 +42,8 @@
     justify-content: center;
     text-align: center;
 }
-.container{
+
+.container {
     max-width: 1200px;
 }
 
@@ -110,51 +111,65 @@ header {
     }
 
     nav {
-        li {
-            cursor: pointer;
-            /* border-bottom: 2px solid var(--primary-100); */
-            transition: 800ms;
-            a {
-                color: var(--black);
-                /* font-weight: bold; */
-                padding: 0 8px;
-                text-decoration: none;
-                /* bagggg must be inline-block */
-                display: inline-block;
-                font-size: 1em;
-                font-family: sans-serif;
+        ul {
+            display: flex;
+            li {
+                cursor: pointer;
+                /* border-bottom: 2px solid var(--primary-100); */
                 transition: 800ms;
+
+                a {
+                    color: var(--black);
+                    /* font-weight: bold; */
+                    padding: 0 8px;
+                    text-decoration: none;
+                    /* bagggg must be inline-block */
+                    display: inline-block;
+                    font-size: 1em;
+                    font-family: sans-serif;
+                    
+                }
+                a::after {
+                    content: '';
+                    display: block;
+                    width: 0%;
+                    background: var(--grey-300);
+                    height: 2px;
+                    margin: 0 auto;
+                    transition: 800ms;
+                }
+                a:hover::after{
+                    width: 100%;
+                }
+                a:hover{
+                    color: var(--black);
+                }
             }
-            a:hover {
-                color: var(--grey-200);
-                // border-bottom: 1px solid var(--grey-200);
-                text-decoration: none;
-                transform: rotateY(20deg) rotateZ(5deg);
-            }
+
+
+
+
         }
 
+        .fa {
+            font-size: 1em;
+        }
 
+        .fa-bars {
+            font-size: 2em;
+            cursor: pointer;
+            color: var(--black);
+        }
+
+        .fa-times {
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+        .fa-arrow-left {
+            color: var(--black);
+        }
     }
-
-    .fa {
-        font-size: 1em;
-    }
-
-    .fa-bars {
-        font-size: 2em;
-        cursor: pointer;
-        color: var(--black);
-    }
-
-    .fa-times {
-        font-size: 1.5em;
-        cursor: pointer;
-    }
-
-    .fa-arrow-left {
-        color: var(--black);
-    }
-
 }
 
 /* button start */
@@ -222,7 +237,8 @@ footer {
                 text-decoration: none;
                 color: var(--black);
             }
-            a:hover{
+
+            a:hover {
                 color: var(--primary-500);
             }
         }
@@ -236,32 +252,40 @@ footer {
                 font-size: 2.5em;
                 padding: 0 4px;
                 transition: 800ms;
-                .fa-github-square{
-                    color: var(--black); 
-                    transition: 800ms; 
-                }
-                .fa-github-square:hover{
-                    transform: scale(1.1);
-                }
-                .fa-facebook-square{
-                    color: var(--grey-900);
-                    transition: 800ms;
-                }
-                .fa-facebook-square:hover{
-                    transform: scale(1.1);
-                }
-                .fa-linkedin-square{
+
+                .fa-github-square {
                     color: var(--black);
                     transition: 800ms;
                 }
-                .fa-linkedin-square:hover{
+
+                .fa-github-square:hover {
                     transform: scale(1.1);
                 }
-                .fa-instagram{
+
+                .fa-facebook-square {
+                    color: var(--grey-900);
+                    transition: 800ms;
+                }
+
+                .fa-facebook-square:hover {
+                    transform: scale(1.1);
+                }
+
+                .fa-linkedin-square {
+                    color: var(--black);
+                    transition: 800ms;
+                }
+
+                .fa-linkedin-square:hover {
+                    transform: scale(1.1);
+                }
+
+                .fa-instagram {
                     color: var(--red-dark);
                     transition: 800ms;
                 }
-                .fa-instagram:hover{
+
+                .fa-instagram:hover {
                     transform: scale(1.1);
                 }
             }
@@ -284,7 +308,7 @@ footer {
         }
 
         .platforms_box {
-            nav a{
+            nav a {
                 // font-size: 1.5em;
             }
         }
@@ -321,6 +345,7 @@ footer {
                 }
 
                 li:hover {
+
                     // transform: translateY(2px);
                     // border-bottom: 1px solid var(--black);
                     a {

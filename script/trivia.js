@@ -1,11 +1,11 @@
-window.onload = () =>{
-    const myQuestions = [
+let myQuestions;
+    myQuestions = [
         {
             question: "Who invented JavaScript?",
-            answers:[
-                {a: "Douglas Crockford"},
-                {b: "Sheryl Sandberg"},
-                {c: "Brendan Eich"}
+            answers: [
+                { a: "Douglas Crockford" },
+                { b: "Sheryl Sandberg" },
+                { c: "Brendan Eich" }
             ],
             correctAnswer: "c"
         },
@@ -29,17 +29,10 @@ window.onload = () =>{
             },
             correctAnswer: "d"
         }];
-        document.querySelector("#id_main").innerHTML += ` <h2>${myQuestions[0].question}</h2> `
-        document.querySelector("#id_main").innerHTML +=
-        // איך אפשר להוסיף את כל השאלות של אותו אובייקט
-        `
-            for(let x in myQuestions[0].answers) {
-                myQuestions[0].answers[x]
-         }
 
-        `
-
-        
-
-} 
+const {answers} = myQuestions[0];
+const {answers: { a },} = myQuestions[0];
+const {answers: { b },} = myQuestions[0];
+const {answers: { c },} = myQuestions[0];
+console.log(`answer1:${a},answer2:${b},answer3:${c}`)
 

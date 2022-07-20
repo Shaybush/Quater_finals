@@ -97,12 +97,15 @@ header .logo a img {
 header .logo a img:hover {
   transform: rotate(640deg);
 }
-header nav li {
+header nav ul {
+  display: flex;
+}
+header nav ul li {
   cursor: pointer;
   /* border-bottom: 2px solid var(--primary-100); */
   transition: 800ms;
 }
-header nav li a {
+header nav ul li a {
   color: var(--black);
   /* font-weight: bold; */
   padding: 0 8px;
@@ -111,26 +114,35 @@ header nav li a {
   display: inline-block;
   font-size: 1em;
   font-family: sans-serif;
+}
+header nav ul li a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  background: var(--grey-300);
+  height: 2px;
+  margin: 0 auto;
   transition: 800ms;
 }
-header nav li a:hover {
-  color: var(--grey-200);
-  text-decoration: none;
-  transform: rotateY(20deg) rotateZ(5deg);
+header nav ul li a:hover::after {
+  width: 100%;
 }
-header .fa {
+header nav ul li a:hover {
+  color: var(--black);
+}
+header nav .fa {
   font-size: 1em;
 }
-header .fa-bars {
+header nav .fa-bars {
   font-size: 2em;
   cursor: pointer;
   color: var(--black);
 }
-header .fa-times {
+header nav .fa-times {
   font-size: 1.5em;
   cursor: pointer;
 }
-header .fa-arrow-left {
+header nav .fa-arrow-left {
   color: var(--black);
 }
 

@@ -155,12 +155,6 @@ header {
             font-size: 1em;
         }
 
-        .fa-bars {
-            font-size: 2em;
-            cursor: pointer;
-            color: var(--black);
-        }
-
         .fa-times {
             font-size: 1.5em;
             cursor: pointer;
@@ -369,7 +363,11 @@ footer {
                 }
             }
         }
-
+        .fa.fa-bars {
+            font-size: 2em;
+            cursor: pointer;
+            color: var(--black);
+        }
         nav.active {
             right: 0;
             /* box-shadow: 12px 0 15px -4px rgba(34, 34, 34, 0.201), -12px 0 8px -4px rgba(34, 34, 34, 0.201); */

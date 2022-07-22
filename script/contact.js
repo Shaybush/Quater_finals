@@ -23,7 +23,7 @@ const declareEvents = () => {
             document.querySelector("#id_checkEmail").innerHTML = "*Please insert valid Email*";
             return;
         }
-        else if (phone_val.length < 10) {
+        else if (phone_val.length < 10 || !checkString(phone_val)) {
             document.querySelector("#id_checkPhone").innerHTML = "*Please insert valid Phone Number*"
             return;
         }
@@ -57,4 +57,7 @@ function formSubmission() {
  * false if not */
 function checkNumbers(str){
     return /\d/.test(str);
+}
+function checkString(number){
+    return /^[0-9]+$/.test(number);
 }

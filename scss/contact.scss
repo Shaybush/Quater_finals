@@ -62,6 +62,9 @@ main{
     form{
         background: var(--grey-200);
         border-radius: 8px;
+        p{
+            font-size: 0.8em;
+        }
     }
     form:hover{
         box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);

@@ -133,11 +133,6 @@ header nav ul li a:hover {
 header nav .fa {
   font-size: 1em;
 }
-header nav .fa-bars {
-  font-size: 2em;
-  cursor: pointer;
-  color: var(--black);
-}
 header nav .fa-times {
   font-size: 1.5em;
   cursor: pointer;
@@ -287,6 +282,11 @@ footer .platforms_box nav a .fa-instagram:hover {
   header nav ul div h3:hover,
 header nav ul div h3::after {
     background: var(--grey-300);
+  }
+  header .fa.fa-bars {
+    font-size: 2em;
+    cursor: pointer;
+    color: var(--black);
   }
   header nav.active {
     right: 0;

@@ -68,29 +68,31 @@
         <div class="container contact-form">
             <div class="contact_image mb-2 d-flex align-items-center text-center justify-content-center">
                 <p>Hotel<span class="">Me <img src="../images/logo1.png" alt="contact-image" /></span></p>
-
             </div>
-            <form onsubmit="sendEmail(); reset(); return false;" id="id_send" class="p-4">
-                <h3 class="textColor mb-2">message here</h3>
+            <form id="id_send" class="p-4">
+                <h3 class="mb-2">message here</h3>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 ">
                         <div class="form-group mb-3">
-                            <input id="id_name" required type="text" name="Name" class="form-control"
-                                placeholder="Name*" />
+                            <input id="id_name" type="text" name="Name" class="form-control" placeholder="Name*" />
+                            <p id="id_checkName" class="text-danger"></p>
                         </div>
                         <div class="form-group my-3">
-                            <input required id="id_email" type="text" name="Email" class="form-control"
-                                placeholder="Email*" />
+                            <input id="id_email" type="text" name="Email" class="form-control" placeholder="Email*" />
+                            <p id="id_checkEmail" class="text-danger"></p>
                         </div>
                         <div class="form-group my-3">
-                            <input id="id_phone" required type="text" name="Phone" class="form-control"
+                            <input id="id_phone" type="text" name="Phone" class="form-control"
                                 placeholder="Phone Number*" />
+                            <p id="id_checkPhone" class="text-danger"></p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="form-group mb-3">
-                            <textarea id="id_text" required name="txtMsg" class="form-control" placeholder="Message*"
+                    <!-- h-100 doesn't work why??? -->
+                    <div class="col-md-6 h-100 ">
+                        <div class="form-group mb-3 mb-md-0">
+                            <textarea id="id_text" name="txtMsg" class="form-control" placeholder="Message*"
                                 style="width: 100%; height: 150px;"></textarea>
+                            <p id="id_checkText" class="text-danger"></p>
                         </div>
                     </div>
                     <div class="form-group my-3">
@@ -143,27 +145,8 @@
     <!-- footer end -->
 
 
-    <!-- form check js -->
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-    <script>
-        const sendEmail = () => {
-            Email.send({
-                Host: "smtp.yourisp.com",
-                Username: "shaybush93@gmail.com",
-                Password: "1s2e3a5h834",
-                To: 'shaybush93@gmail.com',
-                From: document.querySelector("#id_email").value,
-                Subject: "This is the subject",
-                Body: `Name: ${document.querySelector("#id_name").value} <br> 
-                Email: ${document.querySelector("#id_email").value} <br>
-                Phone: ${document.querySelector("#id_phone").value} <br>
-                Message: ${document.querySelector("#id_text").value}`
-            }).then(
-                message => alert("Message Sent Succesfully")
-            );
-        }
-    </script>
+    <!-- form check -->
+    <script src="../script/contact.js"></script>
     <!-- my script -->
     <script src="../script/script.js"></script>
 </body>

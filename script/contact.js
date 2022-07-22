@@ -12,23 +12,23 @@ const declareEvents = () => {
         let phone_val = document.querySelector("#id_phone").value;
         let text_val = document.querySelector("#id_text").value;
         if (name_val.length < 2) {
-            document.querySelector("#id_checkName").innerHTML = "You are required to have at least 2 letters"
+            document.querySelector("#id_checkName").innerHTML = "*You are required to have at least 2 letters*"
             return;
         }
         else if(checkNumbers(name_val)){
-            document.querySelector("#id_checkName").innerHTML = "Name cannot contain numbers"
+            document.querySelector("#id_checkName").innerHTML = "*Name cannot contain numbers*"
             return;
         }
         else if (email_val.indexOf("@") == -1 || email_val.indexOf(".") == -1 || email_val.length <= 7) {
-            document.querySelector("#id_checkEmail").innerHTML = "Please insert valid Email";
+            document.querySelector("#id_checkEmail").innerHTML = "*Please insert valid Email*";
             return;
         }
         else if (phone_val.length < 10) {
-            document.querySelector("#id_checkPhone").innerHTML = "Please insert valid Phone Number"
+            document.querySelector("#id_checkPhone").innerHTML = "*Please insert valid Phone Number*"
             return;
         }
         else if (text_val.length < 2) {
-            document.querySelector("#id_checkText").innerHTML = "You are required to have at least 2 letters";
+            document.querySelector("#id_checkText").innerHTML = "*You are required to have at least 2 letters*";
             return;
         }
         formSubmission();
